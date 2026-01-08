@@ -1,7 +1,7 @@
 # Proxmox-MergerFS
-# 📘 Proxmox – Agrégation de 4 disques HDD (1 To) avec MergerFS
+# Proxmox – Agrégation de 4 disques HDD (1 To) avec MergerFS
 
-## 🎯 Objectif
+## Objectif
 
 Créer **un seul stockage logique** à partir de **4 disques HDD de 1 To** sur Proxmox VE, utilisable pour :
 
@@ -18,7 +18,7 @@ La solution repose sur **MergerFS** afin de :
 
 ---
 
-## 🧠 Principe de fonctionnement
+## Principe de fonctionnement
 
 Chaque disque est monté individuellement, puis agrégé via MergerFS.
 
